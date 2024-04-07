@@ -1,0 +1,17 @@
+[package]
+name = "strategy"
+version = "0.0.1"
+
+[dependencies]
+Sui = { git = "https://github.com/MystenLabs/sui.git", subdir = "crates/sui-framework/packages/sui-framework", rev = "framework/mainnet"}
+lending_core = {local = "../protocol-interface/lending_core"}
+
+
+
+
+[addresses]
+sui = "0x2"
+strategy = "0x0"
+
+
+
