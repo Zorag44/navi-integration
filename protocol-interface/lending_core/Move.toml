@@ -1,0 +1,22 @@
+[package]
+name = "lending_core"
+version = "0.0.1"
+published-at = "0x7c9b90b3fda0fa4aa8ee88ae6c4a0b83c773f74936b5354448cb94662e94442d"
+
+[dependencies.Sui]
+git = "https://github.com/MystenLabs/sui.git"
+subdir = "crates/sui-framework/packages/sui-framework"
+rev = "framework/mainnet"
+
+[dependencies.math]
+local = "../math"
+
+[dependencies.oracle]
+local = "../oracle"
+
+[dependencies.utils]
+local = "../utils"
+
+[addresses]
+sui = "0x2"
+lending_core = "0x7c9b90b3fda0fa4aa8ee88ae6c4a0b83c773f74936b5354448cb94662e94442d"
